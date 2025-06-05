@@ -1,0 +1,258 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-container {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0 2rem;
+}
+
+nav {
+    position: relative;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navbar-items {
+    position: absolute; 
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+}
+
+.navbar-items li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.navbar-items a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar-items a:hover {
+    color: #00FFCC;
+    border-bottom: 2px solid #00FFCC;
+}
+
+.default-btn {
+    padding: 15px 20px; 
+    background-color: #142D43;
+    border-radius: 10px;
+}
+
+.default-btn:hover{
+    background-color: #08121D;
+}
+
+.main-banner {
+    background-image: url("./img/banner.png");
+    padding: 12rem 0;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+.main-banner h1, .main-banner p{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 48%;
+    margin: 0 2rem;
+    height: 6rem;
+    padding: 2rem;
+    color: #A6EFFF;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.main-banner h1:hover, .main-banner p:hover {
+    color:#00F0A8;
+}
+
+.services-container {
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.services-container li {
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-solid {
+    font-size: 48px;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+.fa-solid:hover {
+    color: #00CFFF ;
+}
+
+.fa-circle-play {
+    color: #0A0F24 ;
+}
+
+.fa-download {
+    color: #142D43;
+}
+
+.fa-star {
+    color: #08121D;
+}
+
+.fa-box-open {
+    color: #143B4D;
+}
+
+.princing-container {
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+
+.princing-container h2{
+    font-size: 36px;
+}
+
+.princing-container p {
+    font-size: 20px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 50px auto 0; 
+    gap: 20px;
+    padding-bottom: 6rem;
+}
+
+.plan {
+    flex: 1;
+    max-width: 400px;
+    padding-bottom: 20px;
+}
+
+.plan ul{
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 2px;
+    height: 700px;
+    width: 100%;
+    max-width: 400px;
+    background-color: #A6EFFF;
+}
+
+
+.plan li{
+    list-style: none;
+    height: 100px;
+    text-align: center;
+}
+
+.plan .plan-name {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+.plan .plan-btn {
+    background-color: #142D43;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+    width: 80%;
+    margin: 30px auto;
+    transition: 0.5s;
+}
+
+.plan .plan-btn:hover {
+    background-color: #08121D;
+    color: #1FD6A4;
+}
+
+.plan .price {
+    height: 50px;
+    font-size: 24px;
+}
+
+.indication-container {
+    background-color: #143B4D;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.indication-container h2, .indication-container p {
+    padding: 0 10rem;
+}
+
+.indication-container h2 {
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.indication-container p {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.indication-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.indication-container input[type="text"] {
+    width: 40%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.indication-container input[type="submit"] {
+    background-color: #08121D;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.indication-container input[type="submit"]:hover {
+    opacity: 1;
+    color:#00F0A8;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #00F0A8;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #143B4D;
+    text-align: center;
+    padding: 15px;
+}
+

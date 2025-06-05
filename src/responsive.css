@@ -1,0 +1,45 @@
+@media screen and (max-width: 769px) {
+
+    .logo {
+        margin: 0 -2rem;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 2px;
+    }
+
+    .main-banner h1, .main-banner p{
+        width: 90%;
+        margin: 0 auto;
+        color: #FFF; 
+        background-color: rgba(10, 15, 36, 0.6);
+        text-shadow: 2px 3px 3px black;
+    }
+
+    .main-banner h1 {
+        font-size: 24px;
+    }
+
+    .plans-container,
+    .services-container ul {
+        flex-direction: column;
+    }
+
+    .plan {
+        margin: 0 auto;
+    }
+
+    .services-container ul{
+        width: 100%;
+    }
+
+    .indication-container h2, .indication-container p{
+        padding: 2rem;
+    }
+
+    .indication-container input[type ="text"] {
+        width: 80%;
+    }
+
+}
